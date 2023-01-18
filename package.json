@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve --hot",
-    "build": "NODE_ENV=production webpack"
+    "build": "webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -11,7 +11,6 @@
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "@babel/preset-typescript": "^7.17.12",
-    "@tailwindcss/jit": "^0.1.18",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
     "@types/tailwindcss": "3.0.10",

@@ -79,7 +79,7 @@ const App = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className="md:hidden">
         <div className="m-2">Main Content Here!</div>
         <div className="w-full bottom-0  absolute overflow-auto bg-black">
           <div id="swipe_container" className="h-40 relative overflow-hidden">
@@ -95,6 +95,13 @@ const App = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="hidden md:flex justify-center items-center h-screen w-screen">
+        <div className="text-center">
+          <p>This prototype requires you to be on a mobile device. </p>
+          <p>Use the DevTools to simulate a mobile device.</p>
+          <p>Keep in mind that DevTools on desktop can alter the visual experience.</p>
         </div>
       </div>
     </>

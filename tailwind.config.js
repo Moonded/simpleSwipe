@@ -1,9 +1,11 @@
 module.exports = {
-  mode: 'jit',
-  content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-  ],
+  mode: "jit",
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extends: {}
-  }
-}
+    extends: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
+    },
+  },
+};
