@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#161616] text-white w-screen">
+      <div class="md:hidden">
+        <div class="m-2">Main Content Here!</div>
+        <div class="w-full bottom-0 absolute overflow-auto bg-black">
+          <div id="swipe_container" class="h-40 relative overflow-hidden">
+            <div
+              id="swipeBar"
+              class="flex items-center justify-center bg-[#351717]"
+            >
+              <div class="mt-1.5 bg-white h-1 w-20" >
+            </div>
+            <div id="content" class="absolute bottom-0 bg-[#9828] top-7 w-full">
+              <div class="flex justify-center mt-2">
+                Put your Mobile Nav Content here!
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      <div class="hidden md:flex justify-center items-center">
+        <div class="text-center">
+          <p>This prototype requires you to be on a mobile device.</p>
+          <p>Use the DevTools to simulate a mobile device.</p>
+          <p>
+            Keep in mind that DevTools on desktop can alter the visual
+            experience.
+          </p>
+        </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
